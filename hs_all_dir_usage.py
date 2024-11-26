@@ -1,3 +1,10 @@
+#!/usr/bin/env python
+# hs_all_dir_usage.py
+#  
+# Windows based interactive script tp generate directory usage reports in CSV format for Hammerspace shares.
+# Ver 1.0
+#   Initial Release, Variables for directory and output.
+#
 import os
 import csv
 import subprocess

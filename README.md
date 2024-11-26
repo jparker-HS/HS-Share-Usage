@@ -5,3 +5,4 @@
  + hs-dir-walk.py - Python script to gather directory stats, specifically dir size and num of files then format the output for Prometheus metrics use.
   - Future
     - Clean up output from the 'hs sum' command. It currently is dumping into a single cell since it looks like: {6.942 KFILES, 123.1 MBYTES}
+ + HSTK-dir-report.py - No input required script that generates directory usage reports in CSV format for Hammerspace shares. 
