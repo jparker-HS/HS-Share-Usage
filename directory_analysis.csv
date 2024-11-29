@@ -1,0 +1,25 @@
+Directory,HS Output
+Y:hstk,"{47 FILES, 487.42 KBYTES}"
+Y:hstk\.git,"{25 FILES, 221.18 KBYTES}"
+Y:hstk\.github,"{2 FILES, 8.192 KBYTES}"
+Y:hstk\extra,"{2 FILES, 8.192 KBYTES}"
+Y:hstk\hstk,"{3 FILES, 86.016 KBYTES}"
+Y:hstk\Jeff,#EMPTY
+Y:hstk\tests,"{1 FILE, 12.288 KBYTES}"
+Y:hstk\.git\branches,#EMPTY
+Y:hstk\.git\hooks,"{12 FILES, 57.344 KBYTES}"
+Y:hstk\.git\info,"{1 FILE, 4.096 KBYTES}"
+Y:hstk\.git\logs,"{3 FILES, 12.288 KBYTES}"
+Y:hstk\.git\objects,"{2 FILES, 118.78 KBYTES}"
+Y:hstk\.git\refs,"{2 FILES, 8.192 KBYTES}"
+Y:hstk\.git\logs\refs,"{2 FILES, 8.192 KBYTES}"
+Y:hstk\.git\logs\refs\heads,"{1 FILE, 4.096 KBYTES}"
+Y:hstk\.git\logs\refs\remotes,"{1 FILE, 4.096 KBYTES}"
+Y:hstk\.git\logs\refs\remotes\origin,"{1 FILE, 4.096 KBYTES}"
+Y:hstk\.git\objects\info,#EMPTY
+Y:hstk\.git\objects\pack,"{2 FILES, 118.78 KBYTES}"
+Y:hstk\.git\refs\heads,"{1 FILE, 4.096 KBYTES}"
+Y:hstk\.git\refs\remotes,"{1 FILE, 4.096 KBYTES}"
+Y:hstk\.git\refs\tags,#EMPTY
+Y:hstk\.git\refs\remotes\origin,"{1 FILE, 4.096 KBYTES}"
+Y:hstk\.github\workflows,"{2 FILES, 8.192 KBYTES}"

@@ -9,13 +9,20 @@ import os
 import csv
 import subprocess
 
-# Prompt user for the mount point
-mount_point = input("Enter the drive mount (e.g., 'Z:'): ").strip()
 
-# Validate the mount point exists
-if not os.path.exists(mount_point):
-    print(f"The mount point {mount_point} does not exist.")
+def check_and_convert_path(path):
+  """
+  Checks if path exists and converts path separators for portability.
+  """
+  if not os.path.exists(path):
+    print(f"The path {path} does not exist.")
     exit(1)
+  # Convert path separators based on OS
+  return path.replace("\\", "/") if os.name == "nt" else path  # Windows uses \
+
+# Prompt user for the mount point (or directory for Linux)
+mount_point = input("Enter the Hammerspace share path (e.g., 'Z:' or '/mnt/hammerspace'): ").strip()
+mount_point = check_and_convert_path(mount_point)
 
 # Prepare CSV file
 output_file = "directory_analysis.csv"
